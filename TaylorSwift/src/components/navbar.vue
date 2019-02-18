@@ -1,0 +1,29 @@
+<template>
+    <div id="header">
+        <a href="#" @click="goback" class="iconfont fl">&#xe63f;</a>
+        <div class="title">Taylor Swift</div>
+        <a href="#" class="iconfont fr">&#xe6a0;</a>
+    </div> 
+</template>
+
+<script>
+export default {
+    methods:{
+        goback(){
+            this.$router.go(-1);
+        }
+    }
+}
+</script>
+
+
+<style scoped>
+    #header{ background: #353439;display: table; width: 100%; height: 45px; line-height: 45px; text-align: center; font-size: 18px; color: #fff; position: relative; }
+    #header .title { height: 45px; line-height: 45px; text-align: center; position: absolute;right: 80px;left: 80px; width: auto; margin: 0;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+    #header a{ color: #fff; font-size: 24px; display: block;}  
+    #header .fl{ padding: 0 10px;}
+    #header .fr{ padding: 0 10px;}
+
+    .c000{ color:#fff;}
+</style>
+

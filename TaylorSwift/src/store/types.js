@@ -1,0 +1,12 @@
+export const VIEW_NAV="VIEW_NAV";
+export const VIEW_FOOT="VIEW_FOOT";
+export const VIEW_LOADING="VIEW_LOADING";
+export const COLUMN1="COLUMN1";
+export const COLUMN2="COLUMN2";
+export const COLUMN3="COLUMN3";
+export const COLUMN4="COLUMN4";
+export const COLUMN5="COLUMN5";
+export const MEILIST="MEILIST";
+export const DETAIL="DETAIL";
+export const NAME="NAME";
+export const AUTH="AUTH";
